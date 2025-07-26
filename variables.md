@@ -6,3 +6,27 @@ integer         a = 1
 boolean         b = true
 string          c = "Name"
 None type       d = none
+
+
+<!-- type of variable -->
+type( variable name )  tells the type of variable.
+
+
+ <!-- Built-in data types -->
+<!-- Numeric Data -->
+int     = 0, -8, 6
+float   = 0.32, 33.33
+complex = 6 + 2i
+
+<!-- string variables -->
+string = "name" or anything text in double or single quotation marks.
+
+<!-- Boolean data types -->
+true and false
+
+list, tuple and dictionary are also data types but are for the later lessons. right now you should only know they are data types.
+
+
+In Python everything is an object just for your information, remember this, everything is an object = variables, tuples, lists etc...
+
+
