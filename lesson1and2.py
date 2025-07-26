@@ -122,5 +122,5 @@ print()
 # Apple##Juice##Now...Done
 
 print("#less \n#Copy \n#Edit #Apple##Juice##Now...Done")
-print("#less", "#Copy","#Edit", "#Apple##Juice##Now...Done", sep="\n")
-print("#less", "#Copy","#Edit", "#Apple##Juice##Now...Done", sep='\n')
+print("#less", "#Copy","#Edit", "#Apple##Juice##Now...Done", sep="\n") #using double quotes
+print("#less", "#Copy","#Edit", "#Apple##Juice##Now...Done", sep='\n') #using single quotes
