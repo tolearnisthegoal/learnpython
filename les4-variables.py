@@ -108,10 +108,13 @@ as_integer = 42
 # print(as_string + as_integer) # TypeError: can only concatenate str (not "int") to str
 
 # What will be the type and value of this:
-# aanswer = boolean 
+# aanswer = boolean wrong it's class int
+'''in Python, the boolean values:
+True behaves like the number 1
+False behaves like the number 0
+so 1+1+0 = 2'''
 x = True + True + False
 print(x)
-print("type")
 print(type(x))
 
 
