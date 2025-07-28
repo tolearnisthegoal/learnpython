@@ -205,15 +205,16 @@ print(pyhton_index[3], "3")
 print(pyhton_index[4], "4")
 print(pyhton_index[5], "5")
 
+
 # First and last character same?
 # Check if the first and last characters of a word (input by user) are the same.
-# user_input = input("Enter anything in English ")
-# firstdigit_ = user_input[0]
-# lastdigit_ =  user_input[-1]
-# matching_digit = firstdigit_== lastdigit_
-# print("If first digit is equal last digit result will be true otherwise false  \n  Result: ", matching_digit)
+user_input = input("Enter anything in English ")
+firstdigit_ = user_input[0]
+lastdigit_ =  user_input[-1]
+matching_digit = firstdigit_== lastdigit_
+print("If first digit is equal last digit result will be true otherwise false  \n  Result: ", matching_digit)
 
-# ---------------------------------------------------------------------------------------------------------uncommentme above
+
 
 # Reverse a string
 # Reverse a string using slicing and print it.
@@ -225,34 +226,34 @@ for character in text:
 
 print(reversed_text)
 
-# ---------------------------------------------------------------------------------------------------uncomment below
-# # Reverse a string
-# # Reverse a string using slicing and print it.
-# glas = "glass"
-# reverse = ""
-# for reversed in glas:
-#     reverse = reversed + reverse
-# print(reverse)
 
-# # String contains a letter
-# # Ask the user to input a word. Check if the letter 'e' exists in it.
+# Reverse a string
+# Reverse a string using slicing and print it.
+glas = "glass"
+reverse = ""
+for reversed in glas:
+    reverse = reversed + reverse
+print(reverse)
 
-
-# word_by_user = input("Enter something in English: ")
-
-# print("e" in word_by_user) 
-# #You can search in a string by "in keyword" really just write word like "n" in whatever variable you choosed
+# String contains a letter
+# Ask the user to input a word. Check if the letter 'e' exists in it.
 
 
-# another_word_byuser = input("Enter something in English: ")
-# print("j" in another_word_byuser)
+word_by_user = input("Enter something in English: ")
 
-# # you can also use .find() it will stop when it will find the first word you want to find nothing more
-# wording = input("Enter something in English: ")
-# finding = wording.find("e")
-# print(finding, "-1 is not found positive number mean found " )
+print("e" in word_by_user) 
+#You can search in a string by "in keyword" really just write word like "n" in whatever variable you choosed
 
-# --------------------------------------------------------------------------------------------------uncomment above
+
+another_word_byuser = input("Enter something in English: ")
+print("j" in another_word_byuser)
+
+# you can also use .find() it will stop when it will find the first word you want to find nothing more
+wording = input("Enter something in English: ")
+finding = wording.find("e")
+print(finding, "-1 is not found positive number mean found " )
+
+
 
 
 # Count spaces in a sentence
