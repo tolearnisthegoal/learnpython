@@ -12,9 +12,13 @@ print(a)
 input() function only take value in as a string, so if we want to use another data-type, we have to typecast it.
 
 <!-- This is not going to work as a calculator-->
-a = input("enter any number)
-b = input("enter any number)
+a = input("enter any number")
+b = input("enter any number")
 print = (a+b)
-what it doing in concatenating string together
-Remeber input() only return data to us developers from users, in string data type we have to change it using type-casting.
+<!-- what it doing in concatenating string together -->
+<!-- Remeber input() only return data to us developers from users, in string data type we have to change it using type-casting. -->
+
+a = input("enter number: ")
+b = input("enter number: ")
+print(int(a)+int(b))
 
