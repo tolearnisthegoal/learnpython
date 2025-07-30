@@ -257,4 +257,35 @@ abcdefghij
 
  '''
 
+#  making variable ten_times
+ten_times = "abcdefghij" 
+# checking length of variable with len()
+print(len(ten_times)) #10,  but from 0 to 9, # 9
+# making a basket for holding loop ietartions and adding one each time in it named as holding
+holding = ""
+# writing for loop named as _zero target variable ten_times
+for _zero in ten_times:
+    # in ths line i am really trying to store every iteration in variable holding,
+    # and whatever will be stored in holding will go in again for the next character and will add it to the previous one and,
+    # so on until end like: loop will print:
+    # a
+    # b
+    # c
+    # d
+    # here this variable holding will take them as 
+    # a
+    # a + b = ab
+    # ab + c = abc
+    holding = holding + _zero
+    print(holding)
+
+shrinker = ten_times
+for reversing in shrinker:
+    print(shrinker)
+    shrinker = shrinker[:-1]
+
+
+
+
+
 
