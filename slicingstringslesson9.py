@@ -279,10 +279,14 @@ for _zero in ten_times:
     holding = holding + _zero
     print(holding)
 
+# just making a variable shrinker targeting ten_times
 shrinker = ten_times
+# getting into for loop with name reversing targeting shrinker
 for reversing in shrinker:
+    # printing shrinker the loop will just iterate the whole text
     print(shrinker)
-    shrinker = shrinker[:-1]
+    # using auto feature of python to print the whole line but cutting the last one every time [ : -1]
+    shrinker = shrinker[ : -1]
 
 
 
