@@ -258,7 +258,7 @@ print(productts["laptop"] * 2)
 productts["headphones"] = 1200
 print(productts)
 
-'''Loop through a dictionary and print each key and value.'''
+'''Loop through a dictionary and print each key and value.'''  
 for m in productts:
     print(m, productts[m]) #m will print keys, and productts[m] will print values
 
